@@ -13,8 +13,20 @@
   font-weight: 800;
 }
 
-.output-legend-item {
-  width: 25%;
+.output-legend-item-1 {
+  width: 50%;
+}
+
+.output-legend-item-2 {
+  width: 20%;
+}
+
+.output-legend-item-3 {
+  width: 20%;
+}
+
+.output-legend-item-4 {
+  width: 10%;
 }
 
 .output-result {
@@ -23,7 +35,22 @@
   margin-bottom: 5px;
 }
 
-.output-result-item {
-  width: 25%;
+.output-result-item-1 {
+  width: 50%;
+  margin-left: 5px;
+}
+
+.output-result-item-2 {
+  width: 20%;
+  margin-left: 5px;
+}
+
+.output-result-item-3 {
+  width: 20%;
+  margin-left: 5px;
+}
+
+.output-result-item-4 {
+  width: 10%;
   margin-left: 5px;
 }

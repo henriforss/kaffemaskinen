@@ -6,19 +6,19 @@ const CoffeeOutput = ({ coffeeData, title }) => {
       <h2>{title}</h2>
 
       <div className="output-legend">
-        <p className="output-legend-item">Name</p>
-        <p className="output-legend-item">Package size</p>
-        <p className="output-legend-item">Price</p>
-        <p className="output-legend-item">Roast</p>
+        <p className="output-legend-item-1">Name</p>
+        <p className="output-legend-item-2">Size (gr)</p>
+        <p className="output-legend-item-3">Price (€)</p>
+        <p className="output-legend-item-4">Roast</p>
       </div>
 
       {coffeeData.map((item, i) => {
         return (
           <div key={`coffee-key-${i}`} className="output-result">
-            <p className="output-result-item">{item.coffeeName}</p>
-            <p className="output-result-item">{item.packageSize}</p>
-            <p className="output-result-item">{item.packagePrice}</p>
-            <p className="output-result-item">{item.roast}</p>
+            <p className="output-result-item-1">{item.coffeeName}</p>
+            <p className="output-result-item-2">{item.packageSize}</p>
+            <p className="output-result-item-3">{item.packagePrice}</p>
+            <p className="output-result-item-4">{item.roast}</p>
           </div>
         );
       })}
