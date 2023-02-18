@@ -1,0 +1,14 @@
+.find-wrapper {
+  padding: 10px;
+  background-color: #ccca8f;
+  margin-bottom: 10px;
+}
+
+.find-wrapper > p {
+  margin: 0;
+}
+
+.find-wrapper > input {
+  width: calc(100% - 8px);
+  margin-bottom: 10px;
+}

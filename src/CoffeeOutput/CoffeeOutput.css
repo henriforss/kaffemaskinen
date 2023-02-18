@@ -1,0 +1,29 @@
+.output-wrapper {
+  background-color: #ccca8f;
+  padding: 10px;
+  /* margin-bottom: 10px; */
+}
+
+.output-legend {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.output-legend > p {
+  font-weight: 800;
+}
+
+.output-legend-item {
+  width: 25%;
+}
+
+.output-result {
+  display: flex;
+  background-color: #faf8be;
+  margin-bottom: 5px;
+}
+
+.output-result-item {
+  width: 25%;
+  margin-left: 5px;
+}

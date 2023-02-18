@@ -1,0 +1,27 @@
+.input-wrapper {
+  background-color: #ccca8f;
+  color: black;
+  padding: 10px;
+  margin: 10px 0;
+}
+
+.input-wrapper > p {
+  margin: 0;
+}
+
+.input-div {
+  /* background-color: lightblue; */
+  margin: 10px 0;
+}
+
+.input-div > p {
+  margin: 0px;
+}
+
+.input-div > input {
+  width: calc(100% - 8px);
+}
+
+.input-div > select {
+  width: 100%;
+}
