@@ -33,6 +33,7 @@
   display: flex;
   background-color: #faf8be;
   margin-bottom: 5px;
+  overflow: hidden;
 }
 
 .output-result-item-1 {

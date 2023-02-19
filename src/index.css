@@ -7,10 +7,12 @@ body {
 h1 {
   font-size: 30px;
   font-weight: 800;
+  overflow: hidden;
 }
 
 h2 {
   font-size: 18px;
+  overflow: hidden;
 }
 
 p {
@@ -18,6 +20,7 @@ p {
   margin: 0;
   font-size: 14px;
   line-height: 20px;
+  overflow: hidden;
 }
 
 button {
@@ -26,8 +29,30 @@ button {
   border-radius: 15px;
   background-color: black;
   color: white;
+  font-size: 14px;
 }
 
 button:hover {
   background-color: grey;
+}
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 16px;
+  }
+
+  p {
+    font-size: 12px;
+  }
+
+  button {
+    width: 70px;
+    height: 22px;
+    border-radius: 11px;
+    font-size: 12px;
+  }
 }

@@ -7,8 +7,8 @@ const CoffeeOutput = ({ coffeeData, title }) => {
 
       <div className="output-legend">
         <p className="output-legend-item-1">Name</p>
-        <p className="output-legend-item-2">Size (gr)</p>
-        <p className="output-legend-item-3">Price (€)</p>
+        <p className="output-legend-item-2">Size</p>
+        <p className="output-legend-item-3">Price</p>
         <p className="output-legend-item-4">Roast</p>
       </div>
 
